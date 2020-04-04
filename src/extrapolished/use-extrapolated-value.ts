@@ -1,5 +1,5 @@
 import {ViewBasedExtrapolation} from 'extrapolished';
-import {useExistingPrevious} from "../general/use-existing-previous.hook";
+import {useExistingPrevious} from "../general/use-existing-previous";
 
 export function useExtrapolatedValue(value?: ViewBasedExtrapolation | number): number | undefined
 {

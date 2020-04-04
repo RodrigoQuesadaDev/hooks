@@ -1,4 +1,4 @@
-import {useAfterFirstRun} from "./use-after-first-run.hook";
+import {useAfterFirstRun} from "./use-after-first-run";
 import {usePrevious} from 'react-use';
 
 export function useExistingPrevious<T>(value: T, callback: (value: T) => void)
